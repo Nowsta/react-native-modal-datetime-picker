@@ -67,7 +67,7 @@ export default class CustomDatePickerIOS extends Component {
     this.setState({ date });
     setTimeout(() => {
       this.setState({userIsInteractingWithPicker: false});
-    }, 200);
+    }, 500);
   };
 
   _handleUserTouchInit = () => {
